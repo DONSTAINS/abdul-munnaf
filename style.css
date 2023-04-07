@@ -9,11 +9,15 @@ background-image: url(./images/bg-img.jpg)
 span{
     color: rgb(247, 95, 7);
 }
+/* img{
+    width: 100%;
+    height: auto;
+} */
 
 .heading{
-   padding-left: 19%;
     mix-blend-mode: color-burn;
-    
+    padding-left: 18%;
+    align-items: center;
 }
 
 .skol-para{
@@ -21,4 +25,24 @@ span{
   padding: 20px;
 font-weight: 800;
 text-align: justify;
+}
+
+.first-pic{
+    align-items: center;
+    padding-left: 90px;
+ }
+.sharmi{
+    height: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 70%;
+    width: 70%;
+    
+}
+.lady{
+    height: 20%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 70%;
+    width: 70%;
 }
