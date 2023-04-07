@@ -1,12 +1,13 @@
-let abdul=confirm(`unoda Bday ku gift veynuma KUNJI MUNNAF?
- yes(ok), no(cancel)`)
+let abdul= confirm(`unoda Bday ku gift veynuma KUNJI MUNNAF?
+yes(ok), no(cancel)`)
 let kitting= `😂apadi ena pudungita gift keyakura😂`
 if(abdul)
 {
-    switch(prompt(` apo 1 la erundu 3 kula edhana number solu: `)){
+    switch(prompt(` apo 1 la erundu 3 kula edhana number solu: `))
+    {
         case`1`:
-             alert(` neyarula un alupeyaru solu  mudinja seyathu veykura`)
-             break;
+        alert(` neyarula un alupeyaru solu  mudinja seyathu veykura`)
+        break;
         case`2`:
         alert(`jet vangi thara potukoo  ${kitting}`)
         break;
@@ -15,16 +16,9 @@ if(abdul)
         break;
         default:
             alert(`sonadha matum sei da makata `)
-        }
+    }
 } 
-else {
-    alert(`nala pulla. Ne keyatalum tharamata da poramboku`)
+else
+{
+alert(`nala pulla. Ne keyatalum tharamata da poramboku`)
 }
-
-
-
-
-
-
-
-    
